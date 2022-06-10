@@ -6,6 +6,10 @@ app = Flask(__name__)
 def index():
     return {"msg":"My Name one is Dharmendra bajiya"}
 
+
+@app.route("/check_noew")
+def check():
+    return {"msg":"check now test"}
 @app.route("/login")
 def index():
     return {"msg":"My Name one is Dharmendra bajiya"}
