@@ -1,0 +1,2 @@
+Flask
+waitress==1.2.1
