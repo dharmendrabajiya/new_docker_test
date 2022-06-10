@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return {"msg":"My Name one is Dharmendra bajiya"}
+    return {"msg":"My Name one is Dharmendra bajiya git update"}
 
 @app.route("/login")
 def index():
